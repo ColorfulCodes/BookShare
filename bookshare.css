@@ -1,0 +1,173 @@
+*{
+  border: 1px solid red !important;
+}
+
+body{
+  background-color: #ff78bb;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+font-size: 150px;
+color:white;
+font-family: "Acme", sans-serif;
+}
+
+.login {
+    background-color: #ff78bb;
+    border-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 0px 50px;
+    font-size: 26px;
+}
+
+.login:hover{
+ background-color:brown;
+}
+
+.main-wrapper{
+  width:1000px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+header nav {
+  width:100%;
+  height: 60px;
+  /*background-color: white;*/
+}
+
+header nav ul{
+  float:left;
+}
+
+header nav ul li {
+  float:left;
+  list-style: none;
+}
+
+header nav ul li a {
+  font-family: arial;
+  font-size:  25px;
+  color: black;
+  line-height: 63px;
+
+}
+
+header .nav-login {
+  float:right;
+}
+
+header .nav-login form {
+  float: left;
+  padding-top: 15px;
+}
+
+header .nav-login form input {
+  float: left;
+  width: 140px;
+  height: 30px;
+  padding: 0px 10px;
+  margin-right: 10px;
+  border: none;
+  background-color: white;
+  font-family: arial;
+  font-size: 14px;
+  color: #111;
+  line-height: 30px;
+}
+
+header .nav-login form button {
+  float: left;
+  width: 60px;
+  height: 30px;
+  border: none;
+  background-color: #f3f3f3;
+  font-family: arial;
+  font-size: 14px;
+  color: #111;
+  cursor:pointer;
+}
+
+header .nav-login form button:hover {
+
+  background-color: #ccc;
+
+}
+
+header .nav-login a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-color: white;
+  font-family: arial;
+  cursor: pointer;
+  font-size: 16px;
+  color: #111;
+
+
+}
+
+
+
+
+/*@media all and (max-width:30em){
+ button{
+  display:block;
+  margin:0.4em auto;
+ }
+}*/
+
+.c{
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:20px;
+    height:20px;
+
+    margin-left:-10px; /* -1/2 width */
+    margin-top:-10px; /* -1/2 height */
+  }
+
+  /*// Small devices (landscape phones, 576px and up)*/
+  @media (min-width: 576px) {
+
+    .lg-title {
+      margin-top: 75px;
+    }
+  }
+
+  /*// Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) {
+
+    .lg-title {
+      margin-top: 190px;
+    }
+  }
+
+  /*// Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) {
+
+    .lg-title {
+      margin-top: 230px;
+    }
+  }
+
+  /*// Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) {
+
+    .lg-title {
+      margin-top: 200px;
+    }
+  }
+
+  .p {
+  margin: 0 auto;
+  width:250px;
+  }
